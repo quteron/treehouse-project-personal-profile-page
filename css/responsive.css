@@ -1,0 +1,32 @@
+@media screen and (max-width: 900px) {
+    .content-wrapper {
+        max-width: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 80%;
+        width: 80%;
+    }
+
+    .card.life-style {
+        width: 80%;
+    }
+
+    .card.experience {
+        width: 80%;
+    }
+
+    .card.experience .job {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+    }
+
+    .card.experience .job .description {
+        margin: 0;
+    }
+}
